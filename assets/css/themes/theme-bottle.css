@@ -1138,7 +1138,7 @@ html[dir="rtl"] #header.fullwidth .megamenu .banner-last { margin-left: -60px; m
 
 /* Navigation Bar
 ----------------------------------------------------------*/
-#nav-bar { position: relative; max-height: 100px; line-height: 100px; font-family: "Montserrat", Helvetica, Arial, sans-serif; z-index: 6; background-color: #fff; -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
+#nav-bar { position: relative; max-height: 111px; line-height: 101px; font-family: "Montserrat", Helvetica, Arial, sans-serif; z-index: 6; background-color: #fff; -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
 #nav-bar > * { transition: filter 0.2s ease-out; -moz-transition: filter 0.2s ease-out; -moz-transition: filter 0.2s ease-out; -webkit-transition: -webkit-filter 0.2s ease-out; }
 #nav-bar a { height: 68px; display: inline-block; }
 #nav-bar .logo { position: relative; top: -2px; max-height: 150%; }
