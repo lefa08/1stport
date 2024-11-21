@@ -1120,8 +1120,8 @@ html[dir="rtl"] .text-right { text-align: left; }
 #header { position: relative; top: 0; left: 0; width: 100%; height: 68px; z-index: 900; }
 #header.absolute { position: absolute; }
 #header.fullwidth #nav-bar, #header.fullwidth #top-bar { padding-left: 50px; padding-right: 50px; }
-@media only screen and (max-width: 1199px) { #header.fullwidth #nav-bar, #header.fullwidth #top-bar { padding-left: 30px; padding-right: 30px; } }
-@media only screen and (max-width: 991px) { #header.fullwidth #nav-bar, #header.fullwidth #top-bar { padding-left: 15px; padding-right: 15px; } }
+@media only screen and (max-width: 1199px) { #header.fullwidth #nav-bar, #header.fullwidth #top-bar { padding-left: 40px; padding-right: 30px; } }
+@media only screen and (max-width: 991px) { #header.fullwidth #nav-bar, #header.fullwidth #top-bar { padding-left: 40px; padding-right: 15px; } }
 #header.fullwidth .megamenu .banner-last { margin-right: -60px; }
 @media only screen and (max-width: 991px) { #header.fullwidth .megamenu .row { margin: 0 !important; } }
 #header.fixed { position: fixed; width: 100%; visibility: hidden; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -webkit-transform: translateY(-100%); transform: translateY(-100%); }
