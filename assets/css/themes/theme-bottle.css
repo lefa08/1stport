@@ -32,6 +32,8 @@ iframe { border: none; }
 
 img { max-width: 100%; height: auto; -webkit-backface-visibility: hidden; }
 
+.ima2  { max-width: 100%; height: 100%; -webkit-backface-visibility: hidden; }
+
 /* ---------------------------------------------------------------------------- */
 /* --- 2. BASICS
 /* ----------------------------------------------------------------------------- */
