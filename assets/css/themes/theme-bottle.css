@@ -2675,3 +2675,10 @@ html[dir="rtl"] .widget .twitter-feed ul li:before { right: -21px; left: auto; }
 @keyframes blinking { 0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; } }
+
+
+/*
+#nav-bar .active {
+  text-color: #434343;
+}
+*/
