@@ -1870,6 +1870,7 @@ html[dir="rtl"] .btn.btn-sm { font-size: 12px; }
 html[dir="rtl"] .btn.btn-lg { font-size: 14px; }
 
 .btn-filled { color: #fff; }
+.btn-filled { color: #fff; }
 .btn-filled:hover, .btn-filled:focus { color: #fff; }
 .btn-filled.btn-white { background-color: #fff; color: #b39d34; }
 .btn-filled.btn-white:hover, .btn-filled.btn-white:focus { background-color: #226e40; border-color: #226e40; color: #fff; }
