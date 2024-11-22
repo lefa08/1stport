@@ -1877,7 +1877,7 @@ html[dir="rtl"] .btn.btn-lg { font-size: 14px; }
 .btn-filled.btn-default:hover, .btn-filled.btn-default:focus, .btn-filled.btn-default:active, .btn-filled.btn-default:active:focus, .btn-filled.btn-default:active:hover { color: #1f1f1f; background-color: lightgray; border-color: lightgray; }
 .btn-filled.btn-primary { background-color: #b39d34; }
 .btn-filled.btn-primary:hover, .btn-filled.btn-primary:focus, .btn-filled.btn-primary:active, .btn-filled.btn-primary:active:focus, .btn-filled.btn-primary:active:hover { background-color: #226e40; border-color: #226e40; }
-.btn-filled.btn-secondary { background-color: #3d4042; }
+.btn-filled.btn-secondary { background-color: #b39d34; }
 .btn-filled.btn-secondary:hover, .btn-filled.btn-secondary:focus, .btn-filled.btn-secondary:active, .btn-filled.btn-secondary:active:focus, .btn-filled.btn-secondary:active:hover { background-color: #252627; border-color: #252627; }
 .btn-filled.btn-info { background-color: #2786c9; }
 .btn-filled.btn-info:hover, .btn-filled.btn-info:focus, .btn-filled.btn-info:active, .btn-filled.btn-info:active:focus, .btn-filled.btn-info:active:hover { background-color: #1f6a9e; border-color: #1f6a9e; }
