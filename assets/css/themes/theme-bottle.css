@@ -1297,7 +1297,7 @@ body.mobile-nav-open .menu-toggle .mobile-trigger span > span:after { -moz-trans
 #notification-bar > * { display: inline-block; text-align: center; padding: 9px 10px; display: block; }
 #notification-bar .close-it { margin-left: 10px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60); opacity: 0.6; }
 #notification-bar .close-it:hover { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
-#notification-bar .success { background-color: #8ac04b; }
+#notification-bar .success { background-color: #4c4c4c; }
 #notification-bar .error { background-color: #e15757; }
 
 /* Filter Bar
@@ -2047,12 +2047,12 @@ html[dir="rtl"] .btn.btn-lg { font-size: 14px; }
 .form-control.bordered:-ms-input-placeholder { color: rgba(255, 255, 255, 0.5); }
 .form-control.bordered::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.5); }
 .form-control.bordered:focus, .form-control.bordered:active { border-color: rgba(255, 255, 255, 0.4); }
-.form-control.valid { border-color: #8ac04b; }
+.form-control.valid { border-color: #4c4c4c; }
 .form-control.error { border-color: #e15757; }
 
 textarea.input-sm { height: auto !important; }
 
-.dark .form-control { background-color: #fff; }
+.dark .form-control { background-color: #1f1f1f; }
 
 /* Select */
 select.form-control { line-height: 1; }
