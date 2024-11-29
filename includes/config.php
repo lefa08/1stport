@@ -9,11 +9,11 @@ date_default_timezone_set('Europe/London');
 define('DBHOST','localhost');
 define('DBUSER','root');
 define('DBPASS','');
-define('DBNAME','osemoletse');
+define('DBNAME','soundysync');
 
 //application address
-define('DIR','http://osemoletse.co.za/');
-define('SITEEMAIL','info@osemoletse.co.za');
+define('DIR','http://soundysync.co.za/');
+define('SITEEMAIL','info@soundysync.co.za');
 
 try {
 

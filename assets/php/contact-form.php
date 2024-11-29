@@ -5,17 +5,18 @@
 	$phone = trim($_POST['phone']);
 	$subject = trim($_POST['subject']);
 	$message = trim($_POST['message']);
+	$service = trim($_POST['service']);
 	
-	$emailTo = 'example@mail.com'; //Put your own email address here
+	$emailTo = 'soundysyncinnovations@gmail.com'; //Put your own email address here
 	if (empty($subject)) {
 	    $subject = 'Message from your website.';
 	}
-	$body = "Name: $name \n\nEmail: $email \n\nPhone: $phone \n\nMessage:\n$message";
+	$body = "Name: $name \n\nEmail: $email \n\nPhone: $phone \n\nMessage: $message \n\nservice: $service";
 	$headers = 'From: '.$email."\r\n" .
         'Reply-To: '.$email."\r\n";
 
 	mail($emailTo, $subject, $body, $headers);
 	$emailSent = true;
-	echo ('success');
+	echo ('Mail Sent. Thank you');
 	
 ?>
