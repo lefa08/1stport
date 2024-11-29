@@ -7,7 +7,7 @@
 	$message = trim($_POST['message']);
 	$service = trim($_POST['service']);
 	
-	$emailTo = 'soundysyncinnovations@gmail.com'; //Put your own email address here
+	$emailTo = 'lefa.cloud@gmail.com'; //Put your own email address here
 	if (empty($subject)) {
 	    $subject = 'Message from your website.';
 	}
