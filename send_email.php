@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Email details
     $to = "lefa.cloud@gmail.com"; // Replace with your email address
     $subject = "New Contact Form Submission: $service";
-    $emailMessage = "You have received a new message from your contact form.\n\n" .
+    $emailMessage = "You have received a new message from your contact form. (WEBSITE).\n\n" .
         "Name: $name\n" .
         "Email: $email\n" .
         "Phone: $phone\n" .
