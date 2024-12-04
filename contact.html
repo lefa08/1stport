@@ -115,9 +115,7 @@
 		<div class="col-md-8">
 		    <h5 class="mb-40"><b>Contact Us</b></h5>
 
-		    <form action="https://formspree.io/f/xkgnyqnz" method="POST">
-		    	
-		    <!-- <form class="contact-form validate-form" id="contact-form"  action="https://formspree.io/f/xkgnyqnz" method="POST"> -->
+		    <form action="https://formspree.io/f/xkgnyqnz" method="POST" onsubmit="clearForm()">
 		        <div class="row">
 		            <div class="form-group col-sm-6">
 		                <input name="name" id="name" type="text" class="form-control bordered" placeholder="Name" required>
@@ -129,18 +127,19 @@
 
 		        <div class="row">
 		            <div class="form-group col-sm-6">
-		                <input name="phone" id="phone" type="text" class="form-control bordered" placeholder="Phone Number" required>
+		              <!--   <input name="phone" id="phone" type="text" class="form-control bordered" placeholder="Phone Number" required -->
+		                <input type="text" name="phone" title="Error Message"  maxlength="10" pattern="[0-9]{1}[0-9]{9}" class="form-control bordered" placeholder="Phone Number" required>
 		            </div>
 		            <div class="form-group col-sm-6">
 		                <select name="service" style="color:white; id="service" class="form-control active" required>
 		                    <option value="" disabled selected>Choose a Service:</option>
-		                    <option value="Helpdesk">Helpdesk Support</option>
-		                    <option value="AI">AI System Solutions</option>
-		                    <option value="Network">Network Infrastructure</option>
-		                    <option value="Software">Software Development Solutions</option>
-		                    <option value="Biometric">Biometric Solutions</option>
-		                    <option value="Cloud">Cloud Solutions</option>
-		                    <option value="Database">Database Systems</option>
+		                    <option value="Helpdesk-Support">Helpdesk Support</option>
+		                    <option value="AI-Solutions">AI System Solutions</option>
+		                    <option value="Network-Infrastructure">Network Infrastructure</option>
+		                    <option value="Software-Development">Software Development Solutions</option>
+		                    <option value="Biometric-Solutions">Biometric Solutions</option>
+		                    <option value="Cloud-Solutions">Cloud Solutions</option>
+		                    <option value="Database-Systems">Database Systems</option>
 		                </select>
 		            </div>
 		        </div>
@@ -156,7 +155,12 @@
 		    </form>
 		</div>
 
-
+<script>
+    function clearForm() {
+        // Reset the form fields after successful submission
+        document.getElementById('contact-form').reset();
+    }
+</script>
 
 			</div>
 
